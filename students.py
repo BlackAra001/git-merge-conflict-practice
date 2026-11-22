@@ -1,12 +1,5 @@
 students = [
     {"name": "Alex", "grade": 4},
-    {"name": "Maria", "grade": 5}
+    {"name": "Maria", "grade": 5}, 
+    {"name": "Petr", "grade": 5}  # <--- ДОБАВИЛИ ПЕТРА ВМЕСТО ИВАНА
 ]
-
-
-def show_students():
-    for student in students:
-        print(student["name"], student["grade"])
-
-
-show_students()
